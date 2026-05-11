@@ -5,7 +5,7 @@ import type { Request, Response } from "express";
 const { sendAdminNotification } = require("../Services/sendingEmail");
 
 const jwt = require("jsonwebtoken");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const cookie = require("cookie-parser");
 
 env.config();
