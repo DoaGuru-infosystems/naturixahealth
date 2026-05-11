@@ -2,7 +2,8 @@ import axios from "axios";
 
 // const API_BASE_URL = "https://jaipurdentalhospital.dentalguru.software"
 // const API_BASE_URL = "http://localhost:5000";
-const API_BASE_URL = "https://natura-backend-xct1.onrender.com"
+// const API_BASE_URL = "https://natura-backend-xct1.onrender.com"
+const API_BASE_URL = "http://backend.naturixahealth.com"
 const getAuthConfig = (token) => ({
   withCredentials: true,
   headers: token

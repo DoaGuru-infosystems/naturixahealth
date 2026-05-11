@@ -10,10 +10,7 @@ const db = mysql.createPool({
   user: process.env.DB_USER,
   password: process.env.DB_PASS,
   database: process.env.DB_NAME,
-  ssl: {
-    // Isse 'self-signed certificate' wala error khatam ho jayega
-    rejectUnauthorized: false 
-  }
+
 });
 
 module.exports = db;
